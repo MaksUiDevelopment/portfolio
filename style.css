@@ -1,0 +1,631 @@
+/*  Обнуление  */
+*,
+*::before,
+*::after {
+   padding: 0;
+   margin: 0;
+   bottom: 0;
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+ul,
+ol,
+li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+html,
+body {
+   height: 100%;
+   line-height: 1;
+}
+body {
+   font-family: Rubik;
+   font-size: 12px;
+   color: #616161
+}
+/* ------------------------------ */
+.wrapper {
+  min-height: 100%;
+}
+.insta-link {
+  color: rgb(110, 66, 192);
+}
+
+.tree__item-child-fff {
+  width: 350px;
+  background-color: #fff;
+}
+.tree__item-fff {
+  flex: 1 1 100%;
+  position: relative;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 50px;
+  width: 195px;
+  height: 70px;
+}
+.container {
+  min-width: 1186px;
+  margin: 0 auto;
+}
+.tree__family {
+  min-height: 125px;
+  min-width: 51%;
+}
+.tree__family-1 {
+  width: 100%;
+}
+.tree__family-2 {
+  width: 100%;
+
+}
+.tree__family-3 {
+  width: 100%;
+}
+.tree__family-4 {
+  width: 100%;
+}
+.tree__family-5 {
+  width: 100%;
+}
+.link {
+  position: relative;
+  margin: 25px 0px -6px 0px;
+}
+.link::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 55px;
+  width: 15px;
+  background-color: #000;
+  height: 1px;
+  transform: rotate(20deg);
+}
+.link::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 55px;
+  width: 15px;
+  background-color: #000;
+  height: 1px;
+  transform: rotate(-20deg);
+}
+.link1 {
+  position: relative;
+  margin: 25px 20px -6px 5px;
+}
+.link1::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 55px;
+  width: 15px;
+  background-color: #000;
+  height: 1px;
+  transform: rotate(-20deg);
+}
+.link1::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  right: 55px;
+  width: 15px;
+  background-color: #000;
+  height: 1px;
+  transform: rotate(20deg);
+}
+.father-tree {
+  margin: 15px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #000;
+}
+.tree__item-5 {
+  flex: 1 1 100%;
+  position: relative;
+  margin-left: 10px;
+  background-color: #d9d9d9;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  margin: 0px 30px 0px 0px;
+  width: 195px;
+  height: 70px;
+}
+.tree {
+  margin: 30px 0px 0px 0px;
+  text-align: center;
+}
+.line {
+  position: relative;
+}
+.line::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 65px;
+  height: 3px;
+  top: 22px;
+  left: -50px;
+  z-index: -1;
+
+  background-color: #000;
+}
+.tree__item-child::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 111px;
+  height: 3px;
+  top: -9px;
+  left: 101px;
+  z-index: -1;
+
+  background-color: #000;
+}
+.language-list {
+  display: flex;
+}
+.iv {
+  margin-right: 15px;
+}
+.a {
+  color: inherit;
+}
+.a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.tree__item-child-left::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 111px;
+  height: 3px;
+  top: -9px;
+  left: -18px;
+  z-index: -1;
+
+  background-color: #000;
+}
+.tree__item-child::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  top: 2px;
+  left: 90px;
+  z-index: -1;
+
+  background-color: #000;
+  transform: rotate(90deg);
+}
+.tree__item-child-left::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 25px;
+  height: 3px;
+  top: 2px;
+  left: 80px;
+  z-index: -1;
+
+  background-color: #000;
+  transform: rotate(90deg);
+}
+.lene::before {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 85px;
+  height: 3px;
+  top: 64px;
+  left: -59px;
+  z-index: -1;
+  transform: rotate(90deg);
+
+  background-color: #000;
+}
+.tree__item {
+  margin-top: 15px;
+  text-align: center;
+  background-color: #d9d9d9;
+  display: inline-block;
+  border-radius: 50px;
+  margin: 35px 30px 0px 0px;
+  width: 131px;
+  height: 51px;
+}
+.info-tree {
+  text-align: center;
+  margin: 8px 0px 0px 0px;
+  display: inline-flex;
+  width: 120px;
+  height: 30px;
+}
+.info-tree__icon img {
+  /* flex: 1 1 44px; */
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+}
+.info-tree__icon-modal img {
+  /* flex: 1 1 44px; */
+  max-height: 200px;
+  width: auto;
+  border-radius: 15px;
+  margin: 0px 0px 20px 0px;
+}
+.info-tree__body {
+  padding: 0px 0px 0px 12px;
+}
+.info-tree__title {
+  color: #474646;
+  font-size: 16px;
+  line-height: 126%;
+  letter-spacing: 1.5px;
+}
+.info-tree__title:not(:last-child) {
+  margin: 0px 0px 2px 0px;
+}
+.info-tree__text {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #000;
+  line-height: 126%;
+  letter-spacing: 2px;
+}
+.modal-list__item {
+  margin: 0px 0px 15px 0px;
+}
+.modal-list__title {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+}
+.modal-list__text {
+  font-weight: 400;
+  font-size: 15px;
+  color: #353434;
+}
+.modal-list__suptitle {
+  font-weight: 700;
+  font-size: 15px;
+  color: #000;
+}
+/* Modal Window */
+.modal-btn {
+  background:#013C74; /*цвет фона кнопки*/
+  color:#fff; /*цвет шрифта*/
+  text-align:center;
+  display:inline-block;
+  padding:10px 20px; /*внутренние отступы*/
+  text-decoration:none;
+  font-size:17px; /*размер шрифта*/
+  margin-top:30px;
+  transition: all 0.5s ease;
+}
+.modal-btn:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  background:#439DE0; /*цвет фона при наведении*/
+}
+.modal {
+  opacity: 0; /*изначально этот блок должен быть прозрачным*/ 
+  background: rgba(0,0,0,0.7); /*задаём цвет фона*/
+  pointer-events: none; /*делаем чтобы по элементу нельзя было кликнуть когда он прозрачный*/
+  position: fixed; 
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 0.5s ease;
+  margin: 0;
+  padding: 0;
+}
+.modal:target {
+  opacity: 1; /* при клике блок становится видимым */
+  pointer-events: auto; /* теперь по блоку можно кликать мышкой */
+  overflow-y: auto; /* прокрутка по вертикли страницы */
+}
+.modal-wrapper {
+  margin: auto; /*выравниваем модальное окно по центру по горизонтали*/
+  margin-top: 25vh; /*отступ сверху можно задавать в px, % или vh*/
+}
+  /*CSS-свойства для блока, содержащего контент модального окна */ 
+.CSS-modal-inner {
+  position: relative;
+  background: #fff; /*цвет фона*/
+  border: 1px solid #ccc; /*цвет и толщина рамки*/
+  border-radius: 10px; /*радиус скругления углов*/
+}
+  /*CSS-свойства заголовка модального окна */
+.modal-header {
+  padding: 15px;/*внутренний отступ*/
+  background: #f1f1f1;/*цвет фона*/
+  position: relative;
+  border-radius: 10px;
+}
+.modal-title {
+  font-size: 18px; /*размер шрифта*/
+  color: #555; /*цвет шрифта*/
+  font-weight: bold; /*жирность шрифта*/
+  line-height: 1.5; /*высота строки*/
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
+}
+  /*CSS для кнопки закрытия*/
+.close {
+  position: absolute;
+  top: 15px; /*отступ сверху*/
+  right: 10px; /*отступ справа*/
+  font-size: 24px; /*размер шрифта*/
+  color: #555; /*цвет шрифта*/
+  text-decoration: none;
+}
+.info-tree__icon-modal {
+  text-align: center;
+}
+.close:hover, .close:focus {
+  color: #000; /*цвет шрифта при наведении*/
+  cursor: pointer;
+}
+  /*CSS для блока с текстом*/
+.modal-text {
+  text-align: center;
+  padding: 15px 20px; /*внутренний отступ*/
+}
+/**MEDIA**/
+@media (min-width: 550px) {
+  .modal-wrapper {
+  max-width: 500px;
+  }
+}
+
+/* BIO */
+._container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.bio {
+  min-height: 100vh;
+}
+.bio__body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.bio__container {
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.bio__lable {
+  margin: 0px 0px 30px 0px;
+  display: flex;
+
+  font-size: 18px;
+  letter-spacing: 6px;
+  color: #fbd784;
+  align-items: center;
+}
+.bio__lable::before {
+  content: "";
+  flex: 0 0 70px;
+  margin: 0px 30px 0px 0px;
+  height: 1px;
+  background-color: #fbd784;
+}
+.bio__title {
+  font-size: 78px;
+  color: #b7b5ac;
+}
+.bio__images {
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  top: -10%;
+  left: -10%;
+  z-index: 1;
+}
+.images-bio__item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.images-bio__clouds,
+.images-bio__mountains,
+.images-bio__human {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.images-bio__clouds {
+  background: url('../img/parallax/clouds.jpg') top / cover no-repeat;
+  top: 0;
+}
+.images-bio__mountains {
+  background: url('../img/parallax/mountains.png') top / cover no-repeat;
+  top: 15%;
+  z-index: 2;
+}
+.images-bio__human {
+  background: url('../img/parallax/human.png') top / cover no-repeat;
+  top: 45%;
+  z-index: 3;
+}
+@media (max-aspect-ratio: 3/2) {
+  .images-bio__human {
+    background-position: 20% top;
+  }
+}
+.content {
+  background-color: #0b1d26;
+  position: relative;
+  z-index: 2;
+}
+.content::before {
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  transform: translate(0px, -100%);
+  background: linear-gradient(180deg, rgba(11, 29, 38, 0) 5%, #0b1d26 100%);
+}
+.content__title {
+  font-size: 35px;
+  color: #ada088;
+  text-align: center;
+  margin: 0px 0px 30px 0px;
+}
+.content__text {
+  font-size: 16px;
+  line-height: 150%;
+  color: #918989;
+  margin: 0px 0px 50px 0px;
+}
+.text-red {
+  color: #cb3030;
+}
+.content__text:last-child {
+  margin: 0;
+}
+.content__text p {
+  margin: 0px 0px 30px 0px;
+}
+.function {
+  color: #a78f5a;
+}
+.link-tree {
+  font-weight: 700;
+  font-size: 25px;
+  color: #538755;
+  text-align: center;
+}
+.link-places {
+  font-weight: 700;
+  font-size: 25px;
+  color: #428941;
+  text-align: center;
+}
+.mod {
+  margin: 25px 0px 20px 0px;
+}
+
+.map {
+  text-align: center;
+}
+.demo {
+  color:rgb(110, 66, 192);
+  margin-bottom: 130px;
+}
+.demo a {
+  font-weight: 700;
+  font-size: 25px;
+}
+.map-img img {
+  border-radius: 15px;
+  margin: 0px 0px 30px 0px;
+}
+.map-title {
+  font-weight: 700;
+  font-size: 26px;
+  margin: 0px 0px 30px 0px;
+  color: #f28451;
+}
+
+@media (max-width: 750px) {
+  .bio__title {
+    font-size: 40px;
+  }
+}
+
+
+
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.container-article {
+  background: #fff;
+}
+.articles {
+  background: #555;
+}
+.article-item {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.article-img {
+  margin: 50px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+}
+.article-title {
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000
+}
+.article-text {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  line-height: 1.2;
+  margin: 0px 0px 25px 0px;
+}
+.article-info {
+  margin: 25px 0px 0px 0px;
+  text-align: center;
+}
+.mod-arc {
+  color: rgb(110, 66, 192);
+  font-size: 25px;
+  text-align: center;
+}
+@media (max-width: 750px) {
+  .article-title {
+    font-size: 27px;
+  }
+  .article-text {
+    font-size: 23px;
+  }
+  .map-img img {
+    width: 400px;
+  }
+}
